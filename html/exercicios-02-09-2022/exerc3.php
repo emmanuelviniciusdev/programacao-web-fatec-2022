@@ -31,6 +31,14 @@
                 'senha' => 'admin123',
             ],
         ];
+
+        array_push($usuario, [
+            'nome' => 'Tico',
+            'tipo' => 'admin',
+            'email' => 'tico@ftek.com',
+            'login' => 'admin1',
+            'senha' => 'admin456',
+        ]);
     ?>
 
     <table border="1">
@@ -51,15 +59,5 @@
             </tr>
         <?php } ?>
     </table>
-
-    <?php
-        array_push($usuario, [
-            'nome' => 'Tico',
-            'tipo' => 'admin',
-            'email' => 'tico@ftek.com',
-            'login' => 'admin1',
-            'senha' => 'admin456',
-        ]);
-    ?>
 </body>
 </html>
