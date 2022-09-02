@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -51,5 +51,15 @@
             </tr>
         <?php } ?>
     </table>
+
+    <?php
+        array_push($usuario, [
+            'nome' => 'Tico',
+            'tipo' => 'admin',
+            'email' => 'tico@ftek.com',
+            'login' => 'admin1',
+            'senha' => 'admin456',
+        ]);
+    ?>
 </body>
 </html>
