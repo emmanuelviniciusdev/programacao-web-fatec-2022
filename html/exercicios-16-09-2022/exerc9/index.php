@@ -88,7 +88,7 @@
             }
         }
 
-        class UsuarioBibliotecario extends Usuario
+        class UsuarioBibliotecario extends Usuario implements IUsuarioBibliotecario
         {
             public function __construct(string $nome, string $email, string $login, string $senha)
             {
@@ -112,7 +112,7 @@
             }
         }
 
-        class UsuarioAdmin extends Usuario
+        class UsuarioAdmin extends Usuario implements IUsuarioAdmin
         {
             public function __construct(string $nome, string $email, string $login, string $senha)
             {
